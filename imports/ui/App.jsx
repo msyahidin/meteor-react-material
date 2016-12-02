@@ -21,13 +21,13 @@ export default class App extends React.Component {
                 <MuiThemeProvider>
                     <div>
                         <AppBar
-                            title="Title"
+                            title="Meteor"
                             iconClassNameRight="muidocs-icon-navigation-expand-more"
                             onLeftIconButtonTouchTap={this.handleToggle}
                         />
 
-                        <Drawer width={500}  open={this.state.open} >
-                            <AppBar title="INTRA"
+                        <Drawer width={300}  open={this.state.open} >
+                            <AppBar title="Material UI"
                                     onLeftIconButtonTouchTap={this.handleToggle}
                             />
                         </Drawer>
