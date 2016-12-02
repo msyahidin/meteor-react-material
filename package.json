@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "6.18.0",
+    "classnames": "^2.2.5",
+    "material-ui": "^0.16.0-rc2",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-tap-event-plugin": "^2.0.0"
+  }
+}
